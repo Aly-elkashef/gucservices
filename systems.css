@@ -1,0 +1,55 @@
+.container{
+    display:grid;
+    height:100%;
+    width:auto;
+    grid-template-columns:400px 635px;
+    grid-template-rows:100px 700px;
+    top: 0; right: 0; bottom: 0; left: 0;
+    position: absolute;
+}
+
+.sidebar{
+    grid-area:1/1/4/1;
+    height:auto;
+    width:auto;
+    font-family: Open Sans,Helvetica,sans-serif;
+    background-color:rgb(15, 68, 75);
+    display:flex;
+    flex-direction:column;
+    
+}
+
+.mainpage{
+    grid-area:2/2/4/4;
+    height:auto;
+    width:auto;
+    
+    
+}
+
+.taskbar{
+    background-color:#2F8691;
+    grid-area:1/2/1/4;
+    height:auto;
+    width:auto;
+    font-family: Open Sans,Helvetica,sans-serif;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.home{
+    
+}
+
+.student{
+    border-top: 2px solid #31383d;
+}
+
+.cms{
+    border-top: 2px solid #31383d;
+}
+
+.mail{
+    border-top: 2px solid #31383d;
+}
