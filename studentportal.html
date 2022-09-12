@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Student portal
+    </title>
+    <link rel="stylesheet" href="systems.css">
+    <style>
+        a{
+            text-decoration: none;
+        }
+        
+        .mainpage{
+            display:grid;
+            grid-template-rows:100px 100px 100px;
+            grid-template-columns: 150px 150px;
+            justify-content: center;
+            align-items: center;
+            grid-gap:80px;
+            top: 40;
+            position: relative;
+
+        }
+        button{
+            background-color: #99436f;
+            border-radius: 15px;
+            color:white;
+            border: none;
+            cursor: pointer;
+            
+        }
+        .schedule{
+            font-family: Open Sans,Helvetica,sans-serif;
+            font-size:x-large;
+            height:100px;
+            width:150px;
+            grid-area:1/1/2/2;
+        }
+        .schedule:hover {
+            background: #4A1631;
+        }
+        .group{
+            font-family: Open Sans,Helvetica,sans-serif;
+            font-size:x-large;
+            height:100px;
+            width:150px;
+            grid-area:1/2/2/2;
+        }
+        .group:hover {
+            background: #4A1631;
+        }
+        .courses{
+            font-family: Open Sans,Helvetica,sans-serif;
+            font-size:x-large;
+            height:100px;
+            width:150px;
+            grid-area:2/1/2/1;
+        }
+        .courses:hover {
+            background: #4A1631;
+        }
+        .attend{
+            font-family: Open Sans,Helvetica,sans-serif;
+            font-size:x-large;
+            height:100px;
+            width:150px;
+            grid-area:2/2/2/2;
+        }
+        .attend:hover {
+            background: #4A1631;
+        }
+        .balance{
+            font-family: Open Sans,Helvetica,sans-serif;
+            font-size:x-large;
+            height:100px;
+            width:150px;
+            grid-area:3/3/3/3;
+        }
+        .balance:hover {
+            background: #4A1631;
+        }
+        .grade{
+            font-family: Open Sans,Helvetica,sans-serif;
+            font-size:x-large;
+            height:100px;
+            width:150px;
+            grid-area:3/1/3/1;
+        }
+        .grade:hover {
+            background: #4A1631;
+        }
+        
+    </style>
+    </head>
+    <body>
+        <div class="container">
+           <div class="taskbar">
+            <h1>Student Portal</h1>
+           </div>
+           <div class="sidebar">
+            <div class="home">
+                <a href="GUC.html" class="homelink">
+                    <h2 style="color:rgb(209, 212, 214)">Home</h2>
+                </a>
+            </div>
+            <div class="student">
+                <a href="studentportal.html" class="link1">
+                    <h2 style="color:rgb(209, 212, 214)">Student Portal</h2>
+                </a>
+            </div>
+            <div class="cms">
+                <a href="cms.html" class="link2">
+                    <h2 style="color:rgb(209, 212, 214)">CMS</h2>
+                </a>
+            </div>
+            <div class="mail">
+                <a href="mail.html" class="link3">
+                    <h2 style="color:rgb(209, 212, 214)">Mail</h2>
+                </a>
+            </div>
+           </div>
+           <div class="mainpage">
+              <a href="https://student.guc.edu.eg/Web/Student/Schedule/GroupSchedule.aspx">
+                  <button class="schedule">
+                    Veiw your schedule
+                  </button>
+              </a>
+              <a href="https://student.guc.edu.eg/Web/Student/Schedule/GeneralGroupSchedule.aspx">
+                 <button class="group">
+                     Group schedule
+                 </button>
+              </a>
+              <a href="https://student.guc.edu.eg/External/LSI/EDUMS/CSMS/SearchAcademicScheduled_001.aspx">
+                  <button class="courses">
+                      All courses/Staf
+                  </button>
+              </a>
+              <a href="https://student.guc.edu.eg/External/LSI/EAACMS/SACMM/ClassAttendance_ViewStudentAttendance.aspx">
+                  <button class="attend">
+                      Check attendance 
+                  </button>
+              </a>
+              <a href="https://student.guc.edu.eg/external/student/grade/CheckGrade.aspx">
+                  <button class="grade">
+                      Check grades 
+                  </button>
+              </a>
+              <a href="https://student.guc.edu.eg/External/Student/Financial/BalanceViewE001.aspx">
+                  <button class="balance">
+                      Financial balance
+                  </button>
+              </a>
+
+              
+              
+              
+              
+           </div>
+        </div>
+    </body>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        GUC Mail
+    </title>
+    <link rel="stylesheet" href="systems.css">
+    <style>
+        a{
+            text-decoration: none;
+        }
+        
+        .mainpage{
+        
+            display:grid;
+            grid-template-rows:100px 100px ;
+            grid-template-columns: 150px 150px;
+            justify-content: center;
+            align-items: center;
+            grid-gap:80px;
+            top: 40;
+            position: relative;
+            
+        }
+        button{
+            font-family: Open Sans, Helvetica, sans-serif;
+            font-size:x-large;
+            border-radius: 15px;
+            height:100px;
+            width:150px;
+            background-color: #99436f;
+            color:white;
+            border: none;
+            cursor: pointer;
+        }
+        .inbox:hover {
+            background:  #4A1631;
+        }
+        .send:hover {
+            background: #4A1631;
+        }
+        .pass:hover {
+            background: #4A1631;
+        }
+        .new:hover {
+            background: #4A1631;
+        } #99436f
+        
+    </style>
+</head>
+<body>
+    <div class="container" >
+        <div class="taskbar">
+            <h1>GUC Mail</h1>
+            
+        </div>
+        <div class="sidebar">
+            <div class="home">
+                <a href="GUC.html" class="homelink">
+                    <h2 style="color:rgb(209, 212, 214)">Home</h2>
+                </a>
+            </div>
+            <div class="student">
+                <a href="studentportal.html" class="link1">
+                    <h2 style="color:rgb(209, 212, 214)">Student Portal</h2>
+                </a>
+            </div>
+            <div class="cms">
+                <a href="cms.html" class="link2">
+                    <h2 style="color:rgb(209, 212, 214)">CMS</h2>
+                </a>
+            </div>
+            <div class="mail">
+                <a href="mail.html" class="link3">
+                    <h2 style="color:rgb(209, 212, 214)">Mail</h2>
+                </a>
+            </div>
+        </div>
+        <div class="mainpage">
+            <a href="https://mail.guc.edu.eg/owa/?ae=Folder&t=IPF.Note&id=LgAAAABYmi2AoJ%2fESqM7B7PU2%2fh0AQCmYtvmNw3QRrjEWI2ZKbTsAAAAIhBSAAAB&slUsng=0">
+                <button class="inbox">
+                  Inbox
+                </button>
+            </a>
+            <a href="https://mail.guc.edu.eg/owa/?ae=Folder&t=IPF.Note&id=LgAAAABYmi2AoJ%2fESqM7B7PU2%2fh0AQCmYtvmNw3QRrjEWI2ZKbTsAAAAIhBUAAAB&slUsng=0">
+                <button class="send">
+                  Sent Items
+                </button>
+            </a>
+            <a href="https://mail.guc.edu.eg/owa/?ae=Options&t=ChangePassword">
+                <button class="pass">
+                  Change Password
+                </button>
+            </a>
+            <a href="https://mail.guc.edu.eg/owa/?ae=Item&t=IPM.Note&a=New">
+                <button class="new">
+                  New Message
+                </button>
+            </a>
+        </div>
+    </div>    
